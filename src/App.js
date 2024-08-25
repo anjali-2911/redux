@@ -1,14 +1,15 @@
+import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import HomeComponents from './Containers/HomeComponents'
-
+import HomeContainer from './Containers/HomeContainer'
+import HeaderComponents from './Containers/HeaderComponent'
 function App() {
   return (
-    <>
-    <div className='App'>
-
-    <HomeComponents/>
+    <div className="App">
+      <HeaderComponents />
+     
+      <HomeContainer />
     </div>
-    </>
   );
 }
 
