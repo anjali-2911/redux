@@ -10,7 +10,7 @@ export const addToCart =(data)=>{
 }
 
 export const removeToCart=()=>{
-    console.warn("Remove")
+    console.warn("RemoveToCart")
     return {
         type:REMOVE_TO_CART
     }

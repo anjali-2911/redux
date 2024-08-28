@@ -14,7 +14,7 @@ function Home(props) {
                 </div>
                 <div className="text-wrapper item">
                     <span>
-                        I-Phone
+                        Vivo V9
                     </span>
                     <span>
                         Price: $1000.00
