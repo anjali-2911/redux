@@ -15,6 +15,7 @@ export default function cardItems(state = [], action) {
                 console.warn("reducer remove",action)
                 state.pop();
                return [
+                
                    ...state,
                ]
         default:
