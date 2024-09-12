@@ -21,17 +21,9 @@ function Home(props) {
                     </span>
                 </div>
                 <div className="btn-wrapper item">
-                    <button 
-                    onClick={
-                        ()=>{props.addToCartHandler({price:1000,name:'i phone 11'})}
-                        }>
-                        Add To Cart</button>
+                    <button onClick={ ()=>{props.addToCartHandler({price:1000,name:'i phone 11'})}}>Add To Cart</button>
 
-                        <button className="remove"
-                    onClick={
-                        ()=>{props.removeToCartHandler()}
-                        }>
-                        Remove </button>
+                    <button className="remove" onClick={ ()=>{props.removeToCartHandler()}}>Remove </button>
                 </div>
             </div>
 
