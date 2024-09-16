@@ -5,3 +5,6 @@ export default combineReducers({
     cardItems,
     
 })
+
+
+// here reducres are combined
